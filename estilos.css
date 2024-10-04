@@ -1,0 +1,13 @@
+
+body {
+    background-color: #f8f9fa; 
+}
+.login-container {
+    max-width: 400px; 
+    margin: 100px auto; 
+    padding: 20px;
+    background-color: rgb(87, 241, 82); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+h2{text-align: center;}
