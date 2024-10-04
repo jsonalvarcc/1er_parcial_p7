@@ -77,6 +77,8 @@ $catastros = $resultado_catastro->fetch_all(MYSQLI_ASSOC);
             <p><strong>Nombre:</strong> <?php echo htmlspecialchars($usuario['nombre']); ?></p>
             <p><strong>Apellidos:</strong> <?php echo htmlspecialchars($usuario['apellidos']); ?></p>
             <p><strong>Rol:</strong> <?php echo htmlspecialchars($usuario['rol']); ?></p>
+            <a class="btn btn-success" href="agregar_catastro.php?cod_persona=<?php echo $cod_persona; ?>">Agregar Catastro</a>
+
         </div>
 
         <div class="mb-4">
